@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-QC43LZ.desktop
+x-scheme-handler/https=userapp-Firefox-QC43LZ.desktop
+x-scheme-handler/ftp=userapp-Firefox-QC43LZ.desktop
+x-scheme-handler/chrome=userapp-Firefox-QC43LZ.desktop
+text/html=userapp-Firefox-QC43LZ.desktop
+application/x-extension-htm=userapp-Firefox-QC43LZ.desktop
+application/x-extension-html=userapp-Firefox-QC43LZ.desktop
+application/x-extension-shtml=userapp-Firefox-QC43LZ.desktop
+application/xhtml+xml=userapp-Firefox-QC43LZ.desktop
+application/x-extension-xhtml=userapp-Firefox-QC43LZ.desktop
+application/x-extension-xht=userapp-Firefox-QC43LZ.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-QC43LZ.desktop;
+x-scheme-handler/https=userapp-Firefox-QC43LZ.desktop;
+x-scheme-handler/ftp=userapp-Firefox-QC43LZ.desktop;
+x-scheme-handler/chrome=userapp-Firefox-QC43LZ.desktop;
+text/html=userapp-Firefox-QC43LZ.desktop;
+application/x-extension-htm=userapp-Firefox-QC43LZ.desktop;
+application/x-extension-html=userapp-Firefox-QC43LZ.desktop;
+application/x-extension-shtml=userapp-Firefox-QC43LZ.desktop;
+application/xhtml+xml=userapp-Firefox-QC43LZ.desktop;
+application/x-extension-xhtml=userapp-Firefox-QC43LZ.desktop;
+application/x-extension-xht=userapp-Firefox-QC43LZ.desktop;
