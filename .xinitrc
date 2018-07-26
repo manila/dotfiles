@@ -23,6 +23,8 @@ while true; do
 	sleep 1m
 done &
 
+exec compton -f -D 3 -b &
+
 #Set 'Desktop' Background
 . ~/.fehbg &&
 

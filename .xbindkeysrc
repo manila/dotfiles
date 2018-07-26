@@ -42,7 +42,7 @@
 "xbindkeys_show" 
   control+shift + q
 
-"rofi -show run -config ~/.rofi/config"
+"rofi -show run -config ~/.config/rofi/config"
   Mod4+r
 
 # set directly keycode (here control + f with my keyboard)
