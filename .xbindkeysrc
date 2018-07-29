@@ -37,13 +37,26 @@
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
-# Examples of commands:
+# My key bindings
 
 "xbindkeys_show" 
   control+shift + q
 
+# Run Rofi
 "rofi -show run -config ~/.config/rofi/config"
   Mod4+r
+
+# Volume Up
+"amixer set Master 5%+"
+  XF86AudioRaiseVolume
+
+# Volume Down
+"amixer set Master 5%-"
+  XF86AudioLowerVolume
+
+# Mute Toggle
+"amixer set Master toggle"
+  XF86AudioMute 
 
 # set directly keycode (here control + f with my keyboard)
 #"xterm"

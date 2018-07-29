@@ -1,13 +1,13 @@
 ! "Enabled modi" Set from: Default
 ! rofi.modi:                           window,run,ssh
 ! "Window width" Set from: Default
-! rofi.width:                          50
+rofi.width:                          30
 ! "Number of lines" Set from: Default
 rofi.lines:                          5
 ! "Number of columns" Set from: Default
 ! rofi.columns:                        1
 ! "Font to use" Set from: Default
-rofi.font:                           mononoki 24
+rofi.font:                           mononoki 16
 ! "Color scheme for normal row" Set from: Default
 rofi.color-normal:                   argb:00000000,#aaaaaa, argb:00000000, argb:00000000,#FFFFFF
 ! "Color scheme for urgent row" Set from: Default
