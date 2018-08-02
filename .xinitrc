@@ -18,7 +18,7 @@ compton --config /home/manila/.config/compton/config &
 . ~/.fehbg &
 
 #Start Status Bar
-barf.sh | lemonbar -g 1920x26+0+0 -d -f "mononoki:size=12" -f "Font Awesome 5 Free:style=Solid:size=14" -p -B '#000016' -F '#ffffff' &
+barf.sh | lemonbar -g 1920x26+0+0 -d -f "mononoki:size=12" -f "Font Awesome 5 Free:style=Solid:size=14" -f "Material Icons" -p -B '#000016' -F '#ffffff' &
 
 #Start DWM 
 exec dwm

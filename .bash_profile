@@ -2,7 +2,7 @@
 
 # ~/.bash_profile
 if [ -f ~/.bashrc ]; then
-	. ~/bashrc
+	. ~/.bashrc
 fi
 
 # exercism bash completion
