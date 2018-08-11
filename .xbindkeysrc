@@ -54,6 +54,14 @@
 "amixer set Master 5%-"
   XF86AudioLowerVolume
 
+# Brightness Up
+"nits -up 100"
+  XF86MonBrightnessUp 
+
+# Brightness Down
+"nits -dn 100"
+  XF86MonBrightnessDown
+
 # Mute Toggle
 "amixer set Master toggle"
   XF86AudioMute 
