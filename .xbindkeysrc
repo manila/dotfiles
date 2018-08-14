@@ -40,11 +40,11 @@
 # My key bindings
 
 "xbindkeys_show" 
-  control+shift + q
+  Control+Shift + slash
 
 # Run Rofi
 "rofi -show run -config ~/.config/rofi/config"
-  Mod4+r
+  Control+r
 
 # Volume Up
 "amixer set Master 5%+"

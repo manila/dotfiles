@@ -1,5 +1,8 @@
 # CWM config
 
+# Make room for the status bar
+gap		26 0 0 0
+
 # "Virtual" Desktop Settings
 sticky		yes
 
@@ -25,4 +28,7 @@ bind CM-7	movetogroup7
 bind CM-8	movetogroup8
 bind CM-9	movetogroup9
 
-borderwidth	1
+
+# Style and Color
+borderwidth		1
+color activeborder	'#000016'
