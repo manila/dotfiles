@@ -1,0 +1,28 @@
+# CWM config
+
+# "Virtual" Desktop Settings
+sticky		yes
+
+bind C-1	grouponly1
+bind C-2	grouponly2
+bind C-3	grouponly3
+bind C-4	grouponly4
+bind C-5	grouponly5
+bind C-6	grouponly6
+bind C-7	grouponly7
+bind C-9	grouponly8
+bind C-9	grouponly9
+bind C-0	nogroup
+
+
+bind CM-1	movetogroup1
+bind CM-2	movetogroup2
+bind CM-3	movetogroup3
+bind CM-4	movetogroup4
+bind CM-5	movetogroup5
+bind CM-6	movetogroup6
+bind CM-7	movetogroup7
+bind CM-8	movetogroup8
+bind CM-9	movetogroup9
+
+borderwidth	1
