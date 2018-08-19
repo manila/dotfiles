@@ -16,8 +16,9 @@ xbindkeys &
 
 #Start Status Bar
 bar | lemonbar -p -g 1920x26+0+0 -d \
-       	-f "mononoki:style=Bold:size=12" \
+       	-f "mononoki:style=Regular:size=12" \
        	-f "FontAwesome:size=14" \
+       	-f "mononoki:style=Bold:size=12" \
 	-f "Material Icons" \
 	-B '#dd000016' \
 	-F '#ffffff' &
