@@ -20,7 +20,7 @@ bar | lemonbar -p -g 1920x26+0+0 -d \
        	-f "FontAwesome:size=14" \
        	-f "mononoki:style=Bold:size=12" \
 	-f "Material Icons" \
-	-B '#dd000016' \
+	-B '#bb000016' \
 	-F '#ffffff' &
 
 #Start Composition Manager
