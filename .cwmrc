@@ -31,4 +31,5 @@ bind CM-9	movetogroup9
 
 # Style and Color
 borderwidth		1
-color activeborder	'#000016'
+color activeborder	'#323232'
+color inactiveborder	'#000016'
