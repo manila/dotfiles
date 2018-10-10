@@ -29,3 +29,5 @@ compton --config ~/.config/compton/config &
 #Start DWM 
 exec openbsd-cwm -c ~/.cwmrc
 
+#Lower Volume
+amixer set Master 32768
