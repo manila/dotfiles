@@ -1,7 +1,7 @@
 # CWM config
 
 # Make room for the status bar
-gap		26 0 0 0
+gap		20 0 0 0
 
 # "Virtual" Desktop Settings
 sticky		yes
