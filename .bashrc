@@ -84,6 +84,11 @@ if [ -x /usr/bin/dircolors ]; then
     #alias egrep='egrep --color=auto'
 fi
 
+# Disable system bell
+if [ -n "$DISPLAY" ]; then
+  xset b off
+fi
+
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -111,3 +116,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Set Environment Variables
+ 
+# this is for password-store used to pick editor when editing passwords 
+export EDITOR='vim' 
