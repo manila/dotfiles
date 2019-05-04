@@ -28,6 +28,14 @@ bind CM-7	movetogroup7
 bind CM-8	movetogroup8
 bind CM-9	movetogroup9
 
+# Resize windows with mouse
+mousebind CM-1	window_resize
+
+# Fill Screen w/o going full screen (firefox)
+bind CM-m	maximize
+bind CM-f	fullscreen
+bind CM-h	htile
+bind CM-v	vtile
 
 # Style and Color
 borderwidth		1
