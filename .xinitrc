@@ -27,7 +27,7 @@ xbindkeys &
 bar | lemonbar -p -g 1366x20+0+0 -d \
        	-f "GohuFont:style=Regular:size=11" \
        	-f "Siji:style=Regular" \
-	-B '#000016' \
+	-B '#dd000000' \
 	-F '#ffffff' &
 
 #Start Composition Manager

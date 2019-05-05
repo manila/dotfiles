@@ -7,7 +7,7 @@ rofi.lines:                          5
 ! "Number of columns" Set from: Default
 ! rofi.columns:                        1
 ! "Font to use" Set from: Default
-rofi.font:                           mononoki 14
+rofi.font:                           GohuFont 11
 ! "Color scheme for normal row" Set from: Default
 rofi.color-normal:                   argb:00000000,#aaaaaa, argb:00000000, argb:00000000,#FFFFFF
 ! "Color scheme for urgent row" Set from: Default
@@ -15,7 +15,7 @@ rofi.color-urgent:                   argb:00000000,#FFFFFF,#FFFFFF,#FFFFFF,#FFFF
 ! "Color scheme for active row" Set from: Default
 rofi.color-active:                   argb:00000000,#FFFFFF,#000000,#FFFFFF,#FFFFFF
 ! "Color scheme window" Set from: Default
-rofi.color-window:                   argb:aa000016, #FFFFFF, #FFFFFF
+rofi.color-window:                   argb:dd000000, #FFFFFF, #FFFFFF
 ! "Border width" Set from: Default
 rofi.bw:                             0
 ! "Location on screen" Set from: Default
