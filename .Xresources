@@ -1,7 +1,8 @@
 URxvt*scrollBar: false
-URxvt*font: xft:GohuFont:size=11
-URxvt*letterSpace: 0
-URxvt*internalBorder: 5
+URxvt*font: xft:mononoki:size=11
+URxvt*letterSpace: -1
+URxvt*internalBorder: 8
+URxvt*depth: 32
 !URxvt*transparent: true
 
 Xft*autohint: 0
@@ -9,7 +10,7 @@ Xft*lcdfilter: lcddefault
 Xft*hintstyle: hintslight
 Xft*hinting: 1
 Xft*antialias: 1
-Xft.rgba: rgb
+Xft*rgba: rgba
 
 ! Solarized color scheme for the X Window System
 !
@@ -58,7 +59,9 @@ Xft.rgba: rgb
 !
 ! URxvt*background:            S_base03
 
-*background:              S_base03
+!*background:              rgba:ee000000
+!*background:              S_base03
+URxvt*background:	  rgba:0000/0000/0200/c800
 *foreground:              S_base0
 *fading:                  40
 *fadeColor:               S_base03

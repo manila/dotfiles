@@ -38,6 +38,6 @@ bind CM-h	htile
 bind CM-v	vtile
 
 # Style and Color
-borderwidth		0
-color activeborder	'#323232'
+borderwidth		1
+color activeborder	'#222222'
 color inactiveborder	'#000016'
