@@ -13,5 +13,6 @@ fi
 # Adding ~/bin to PATH variable
 
 PATH=~/bin:$PATH
+PATH="/usr/java/jre1.8.0_211/bin:$PATH"
 
 export PATH
