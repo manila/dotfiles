@@ -3,7 +3,6 @@ URxvt*font: xft:mononoki:size=11
 URxvt*letterSpace: -1
 URxvt*internalBorder: 8
 URxvt*depth: 32
-!URxvt*transparent: true
 
 Xft*autohint: 0
 Xft*lcdfilter: lcddefault
@@ -31,15 +30,12 @@ Xft*rgba: rgba
 
 ! Dark
 
-#define S_base03        #111111
-!#define S_base03        #002b36
+#define S_base03        #002b36
 #define S_base02        #073642
-!#define S_base01        #586e75
-#define S_base01        #eeeeff
+#define S_base01        #586e75
 #define S_base00        #657b83
+#define S_base0         #839496
 #define S_base1         #93a1a1
-!#define S_base0         #839496
-#define S_base0         #ddddee
 #define S_base2         #eee8d5
 #define S_base3         #fdf6e3
 
@@ -61,9 +57,7 @@ Xft*rgba: rgba
 !
 ! URxvt*background:            S_base03
 
-!*background:              rgba:ee000000
-!*background:              S_base03
-URxvt*background:	  rgba:0000/0000/0200/c800
+*background:              [60]S_base03
 *foreground:              S_base0
 *fading:                  40
 *fadeColor:               S_base03
@@ -87,4 +81,5 @@ URxvt*background:	  rgba:0000/0000/0200/c800
 *color13:                 S_violet
 *color14:                 S_base1
 *color15:                 S_base3
+
 
