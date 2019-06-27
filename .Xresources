@@ -57,10 +57,10 @@ Xft*rgba: rgba
 !
 ! URxvt*background:            S_base03
 
-*background:              [60]S_base03
+*background:              [25]S_base03
 *foreground:              S_base0
-*fading:                  40
-*fadeColor:               S_base03
+*fading:                  20
+*fadeColor:               [35]S_base03
 *cursorColor:             S_base1
 *pointerColorBackground:  S_base01
 *pointerColorForeground:  S_base1
