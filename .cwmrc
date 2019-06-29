@@ -6,36 +6,33 @@ gap		20 0 0 0
 # "Virtual" Desktop Settings
 sticky		yes
 
-bind C-1	grouponly1
-bind C-2	grouponly2
-bind C-3	grouponly3
-bind C-4	grouponly4
-bind C-5	grouponly5
-bind C-6	grouponly6
-bind C-7	grouponly7
-bind C-9	grouponly8
-bind C-9	grouponly9
-bind C-0	nogroup
+# Key bindings
+bind-key C-1	group-only-1
+bind-key C-2	group-only-2
+bind-key C-3	group-only-3
+bind-key C-4	group-only-4
+bind-key C-5	group-only-5
+bind-key C-6	group-only-6
+bind-key C-7	group-only-7
+bind-key C-8	group-only-8
+bind-key C-9	group-only-9
+bind-key C-0	nogroup
 
-
-bind CM-1	movetogroup1
-bind CM-2	movetogroup2
-bind CM-3	movetogroup3
-bind CM-4	movetogroup4
-bind CM-5	movetogroup5
-bind CM-6	movetogroup6
-bind CM-7	movetogroup7
-bind CM-8	movetogroup8
-bind CM-9	movetogroup9
-
-# Resize windows with mouse
-mousebind CM-1	window_resize
+bind-key CM-1	window-movetogroup-1
+bind-key CM-2	window-movetogroup-2
+bind-key CM-3	window-movetogroup-3
+bind-key CM-4	window-movetogroup-4
+bind-key CM-5	window-movetogroup-5
+bind-key CM-6	window-movetogroup-6
+bind-key CM-7	window-movetogroup-7
+bind-key CM-8	window-movetogroup-8
+bind-key CM-9	window-movetogroup-9
 
 # Fill Screen w/o going full screen (firefox)
-bind CM-m	maximize
-bind CM-f	fullscreen
-bind CM-h	htile
-bind CM-v	vtile
+bind-key CM-m	maximize
+bind-key CM-f	fullscreen
+bind-key CM-h	htile
+bind-key CM-v	vtile
 
 # Style and Color
 borderwidth		1
