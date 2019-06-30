@@ -29,10 +29,10 @@ bind-key CM-8	window-movetogroup-8
 bind-key CM-9	window-movetogroup-9
 
 # Fill Screen w/o going full screen (firefox)
-bind-key CM-m	maximize
-bind-key CM-f	fullscreen
-bind-key CM-h	htile
-bind-key CM-v	vtile
+bind-key CM-m	window-maximize
+bind-key CM-f	window-fullscreen
+bind-key CM-h	window-htile
+bind-key CM-v	window-vtile
 
 # Style and Color
 borderwidth		1
