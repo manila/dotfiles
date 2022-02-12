@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/manila/snippets/views'
+let g:netrw_dirhist_7='/home/manila/snippets'
+let g:netrw_dirhist_6='/home/manila/snippets/views'
+let g:netrw_dirhist_5='/home/manila/snippets'
+let g:netrw_dirhist_4='/home/manila/snippets/views'
+let g:netrw_dirhist_3='/home/manila/gae-chat/config'
+let g:netrw_dirhist_2='/home/manila/gae-chat'
+let g:netrw_dirhist_1='/home/manila/gae-chat/src'
